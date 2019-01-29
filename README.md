@@ -1,8 +1,22 @@
 
-Nova Dark Theme
-====
+<h1 align="center">
+	Nova Dark Theme
+</h1>
 
-A dark theme for [Laravel Nova](https://nova.laravel.com/) to save your tired eyes :eyes:
+<p align="center">
+	<strong>A dark theme for <a href="https://nova.laravel.com/">Laravel Nova</a> to save your tired eyes :eyes:</strong><br>
+</p>
+
+<p align="center">
+  <a href="https://packagist.org/packages/david-griffiths/nova-dark-theme">
+    <img src="https://poser.pugx.org/david-griffiths/nova-dark-theme/v/stable" alt="Latest Stable Version">
+  </a>
+  
+  <a href="https://packagist.org/packages/david-griffiths/nova-dark-theme">
+    <img src="https://poser.pugx.org/david-griffiths/nova-dark-theme/license" alt="License">
+  </a>
+</p>
+
 
 ![dark-shadow](https://user-images.githubusercontent.com/1121864/51878721-8bc49d00-2368-11e9-9983-a49e9afe18d0.png)
 
@@ -28,4 +42,15 @@ Code::make('MyTextField')->options(['theme' => 'base16-light'])
 ```
 
 (:exclamation: _Remember to pick a light coloured CodeMirror theme if you want it to appear dark in Nova after the colors get inverted_)
+
+
+License
+----------
+
+MIT License (MIT). Please see [License File](LICENSE) for more.
+
+
+
+
+
 
