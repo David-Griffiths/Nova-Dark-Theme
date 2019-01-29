@@ -1,0 +1,31 @@
+{
+    "name": "david-griffiths/nova-dark-theme",
+    "description": "A dark theme for Laravel Nova",
+    "keywords": [
+        "laravel",
+        "nova",
+        "dark",
+        "theme"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DavidGriffiths\\NovaDarkTheme\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DavidGriffiths\\NovaDarkTheme\\ThemeServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
