@@ -1,2 +1,31 @@
-# Nova-Dark-Theme
-A dark theme for Laravel Nova
+
+Nova Dark Theme
+====
+
+A dark theme for [Laravel Nova](https://nova.laravel.com/) to save your tired eyes :eyes:
+
+![dark-shadow](https://user-images.githubusercontent.com/1121864/51878721-8bc49d00-2368-11e9-9983-a49e9afe18d0.png)
+
+Installation
+----------
+
+This theme works in any Laravel app that uses Nova. Just require it and you're done.
+
+`composer require david-griffiths/nova-dark-theme`
+
+How It Works
+----------
+
+We use a css filter to invert the colors, then some manual tweaks for the sidebar and logo areas. So white becomes black, which you should keep in mind when adding any custom css colors.
+
+Code Fields
+----------
+
+One item it doesn't style for you is the Nova `Code` field. I don't want impose a CodeMirror theme on you when you can [pick one from here](https://codemirror.net/demo/theme.html#default) and set it like this:
+
+```php
+Code::make('MyTextField')->options(['theme' => 'base16-light'])
+```
+
+(:exclamation: _Remember to pick a light coloured CodeMirror theme if you want it to appear dark in Nova after the colors get inverted_)
+
