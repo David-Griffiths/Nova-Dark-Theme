@@ -27,6 +27,8 @@ This theme works in any Laravel app that uses Nova. Just require it and you're d
 
 `composer require david-griffiths/nova-dark-theme`
 
+(You can install multiple themes with Nova. So you don't have to choose between this and another - use them both!)
+
 How It Works
 ----------
 
