@@ -2,12 +2,14 @@
 
 namespace DavidGriffiths\NovaDarkTheme;
 
+use Illuminate\Support\Facades\File;
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;
 use Illuminate\Support\ServiceProvider;
 
 class ThemeServiceProvider extends ServiceProvider
 {
+
     /**
      * Bootstrap any application services.
      *
@@ -16,7 +18,8 @@ class ThemeServiceProvider extends ServiceProvider
     public function boot()
     {
         Nova::serving(function (ServingNova $event) {
-            Nova::style('nova-dark-theme', __DIR__.'/../resources/css/theme.css');
+            Nova::style('nova-dark-theme', __DIR__.'/../dist/css/theme.css');
+            Nova::script('nova-dark-theme', __DIR__.'/../dist/js/theme.js');
         });
     }
 
@@ -29,4 +32,5 @@ class ThemeServiceProvider extends ServiceProvider
     {
         //
     }
+
 }
