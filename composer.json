@@ -1,6 +1,19 @@
 {
     "name": "david-griffiths/nova-dark-theme",
     "description": "A dark theme for Laravel Nova",
+    "type": "library",
+    "homepage": "https://github.com/David-Griffiths/Nova-Dark-Theme",
+    "authors": [
+        {
+            "name": "David Griffiths",
+            "homepage": "https://github.com/David-Griffiths",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/David-Griffiths/Nova-Dark-Theme/issues",
+        "source": "https://github.com/David-Griffiths/Nova-Dark-Theme"
+    },
     "keywords": [
         "laravel",
         "nova",
