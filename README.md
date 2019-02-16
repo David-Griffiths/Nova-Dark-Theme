@@ -10,13 +10,21 @@
   <a href="https://packagist.org/packages/david-griffiths/nova-dark-theme">
     <img src="https://poser.pugx.org/david-griffiths/nova-dark-theme/v/stable" alt="Latest Stable Version">
   </a>
+    
+  <a href="https://packagist.org/packages/david-griffiths/nova-dark-theme">
+    <img src="https://poser.pugx.org/david-griffiths/nova-dark-theme/downloads" alt="Downloads">
+  </a>
   
   <a href="https://packagist.org/packages/david-griffiths/nova-dark-theme">
     <img src="https://poser.pugx.org/david-griffiths/nova-dark-theme/license" alt="License">
   </a>
 </p>
 
-![toggle-dark-theme](https://user-images.githubusercontent.com/1121864/52905434-20b50a80-3232-11e9-8755-4e7ea49ca771.gif)
+<p align="center">
+  <a href="https://user-images.githubusercontent.com/1121864/52905434-20b50a80-3232-11e9-8755-4e7ea49ca771.gif">
+    <img src="https://user-images.githubusercontent.com/1121864/52905434-20b50a80-3232-11e9-8755-4e7ea49ca771.gif" alt="Dark Theme Toggle Switch">
+  </a>
+</p>
 
 Installation
 ----------
@@ -59,7 +67,7 @@ To remove the switch from your menu, you could edit the file yourself, or run th
 Set Dark Mode On/Off By Default
 ----------
 
-This can be used with the toggle switch or without it. If you're not using the toggle switch then when you set dark mode ON, it will stay on and not changeable by users. If you _are_ using the switch, then the below commands will only set the theme state when the page first loads. The user will then be able to flip the switch whenever they like.
+This can be used with the toggle switch or without it. If you're not using the toggle switch then when you set dark mode ON, it will stay on and not be changeable by users. If you _are_ using the switch, then the below commands will only set the theme state when the page first loads. The user will then be able to flip the switch whenever they like.
 
 `php artisan nova-dark-theme:on`
 
