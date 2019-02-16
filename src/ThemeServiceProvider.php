@@ -11,6 +11,15 @@ class ThemeServiceProvider extends ServiceProvider
 {
 
     /**
+     * Custom commands for the dark theme
+     *
+     * @var array
+     */
+    protected $commands = [
+        'DavidGriffiths\NovaDarkTheme\Commands\Install',
+    ];
+
+    /**
      * Bootstrap any application services.
      *
      * @return void
@@ -18,8 +27,8 @@ class ThemeServiceProvider extends ServiceProvider
     public function boot()
     {
         Nova::serving(function (ServingNova $event) {
-            Nova::style('nova-dark-theme', __DIR__.'/../dist/css/theme.css');
-            Nova::script('nova-dark-theme', __DIR__.'/../dist/js/theme.js');
+            Nova::style('nova-dark-theme', __DIR__ . '/../dist/css/theme.css');
+            Nova::script('nova-dark-theme', __DIR__ . '/../dist/js/theme.js');
         });
     }
 
@@ -30,7 +39,7 @@ class ThemeServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->commands($this->commands);
     }
 
 }
