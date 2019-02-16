@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://packagist.org/packages/david-griffiths/nova-dark-theme">
-    <img src="https://poser.pugx.org/david-griffiths/nova-dark-theme/v/stable" alt="Latest Stable Version">
+    <img src="https://img.shields.io/github/release/david-griffiths/nova-dark-theme.svg?label=version&style=flat" alt="Latest Stable Version">
   </a>
     
   <a href="https://packagist.org/packages/david-griffiths/nova-dark-theme">
