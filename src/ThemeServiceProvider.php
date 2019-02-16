@@ -15,7 +15,10 @@ class ThemeServiceProvider extends ServiceProvider
      * @var array
      */
     protected $commands = [
-        'DavidGriffiths\NovaDarkTheme\Commands\Install',
+        'DavidGriffiths\NovaDarkTheme\Commands\AddSwitch',
+        'DavidGriffiths\NovaDarkTheme\Commands\RemoveSwitch',
+        'DavidGriffiths\NovaDarkTheme\Commands\On',
+        'DavidGriffiths\NovaDarkTheme\Commands\Off',
     ];
 
     /**
