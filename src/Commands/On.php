@@ -67,7 +67,7 @@ class On extends Command
         $template = File::get($path);
 
         if (! Str::contains($template, 'nova-dark-theme')) {
-            $pattern = '#<html[^>]+class\s*=\s*"#';
+            $pattern = '#<html.*?class\s*=\s*"#';
             $template = preg_replace($pattern, '$0nova-dark-theme ', $template);
 
             File::put($path, $template);
