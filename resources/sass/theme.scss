@@ -8,6 +8,10 @@ html.nova-dark-theme {
     filter: invert(100%) hue-rotate(180deg);
 }
 
+.nova-dark-theme iframe {
+    filter: invert(100%) hue-rotate(180deg);
+}
+
 .nova-dark-theme .bg-logo {
     background-image: linear-gradient(0deg, #eeeeee 0%, #fff 100%);
 }
